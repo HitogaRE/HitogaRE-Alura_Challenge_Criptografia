@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="src/styles/style.css">
+   <title>Challenge de Criptografia!</title>
+</head>
+
+<body>
+
+   <section class="painel">
+
+      <div class="container-principal">
+
+         <img src="src/assets/logo-alura.png" alt="logo-alura" class="logo-alura">
+
+         <div class="container-texto-botoes">
+            <textarea 
+               name="Entrada da Criptografia/Descriptografia" 
+               id="criptografia-entrada" 
+               class="entrada-texto"
+               cols="20" 
+               rows="10" 
+               placeholder="Digite um texto que você deseja criptografar ou descriptografar." 
+               wrap="hard">
+            </textarea>
+
+            <div class="botoes">
+               <button class="botao-criptografa">Criptografar</button>
+               <button class="botao-descriptografa">Descriptografar</button>
+            </div>
+         </div>
+
+         <div class="container-resultado">            
+            <textarea  
+               name="Resultado da Criptografia/Descriptografia" 
+               id="criptografia-resultado"
+               class="resultado-criptografia" 
+               cols="20" 
+               rows="10" 
+               readonly placeholder="Nenhuma mensagem encontrada...">
+            </textarea>
+
+            <img src="src/assets/garota.png" alt="garota" class="garota">
+
+
+            <button class="copia-resultado">Copiar</button>
+         </div>
+
+      </div>
+
+   </section>
+
+</body>
+
+<script src="src/script.js"></script>
+
+<footer>
+   <p>Created by <a href="https://github.com/HitogaRE">Thiago</a></p>
+</footer>
+
+</html>
